@@ -1,15 +1,3 @@
-/*
-    wpm_game.c
-
-    A self-contained typing speed game where the user types a single sentence.
-    The sentence is selected pseudo-randomly from a pool of sample sentences.
-    No external libraries are used, and no multiplication (*) or division (/) 
-    operators appear in our code (we use precomputed constants and repeated subtraction).
-    All definitions required by procs.c appear before its single inclusion.
-    
-    Written for COMP 541.
-*/
-
 /* --- Definitions required by procs.c --- */
 
 // Define the color enumeration.
@@ -406,12 +394,3 @@ int main() {
     
     return 0;
 }
-
-/*
-    Written by Montek Singh
-    Copyright and all rights reserved.
-    Last Updated: Apr 6, 2025
-
-    Credits: Thanks to Thayer Hicks for adding audio support (in procs.c).
-    Permission granted for use in the COMP 541 course.
-*/
